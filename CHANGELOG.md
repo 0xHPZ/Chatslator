@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.3.3] - 2026-06-06
+
+### Added
+- Support for YouTube Live Chat popout pages (`youtube.com/live_chat?is_popout=1`)
+
+---
+
 ## [1.3.2] - 2026-05-27
 
 ### Added
