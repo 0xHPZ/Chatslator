@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.3.4] - 2026-06-10
+
+### Added
+- Support for both stable and recommended versions of 7TV.
+
+---
+
 ## [1.3.3] - 2026-06-06
 
 ### Added
