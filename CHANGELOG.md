@@ -4,6 +4,17 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.3.5] - 2026-06-16
+
+### Added
+- Added a Supporters page
+
+### Improved
+- Redesigned the options page layout with a new sidebar navigation and refreshed overall UI
+- Under-the-hood improvements for a faster, smoother, and more reliable experience
+
+---
+
 ## [1.3.4] - 2026-06-10
 
 ### Added
