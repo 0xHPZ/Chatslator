@@ -4,6 +4,17 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.3.6] - 2026-06-23
+
+### Added
+- Translate existing chats on YouTube: when you open a live chat, chats already on screen are now translated too
+
+### Improved
+- More reliable startup and cleanup during YouTube navigation, reducing stale state and duplicate observers
+- Under-the-hood improvements for a faster, smoother, and more reliable experience
+
+---
+
 ## [1.3.5] - 2026-06-16
 
 ### Added
