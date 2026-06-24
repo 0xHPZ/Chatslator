@@ -20,6 +20,8 @@ Thank you to everyone who has supported Chatslator! ❤️
 
 ## 🥉 Bronze
 
+- RonaldM
+
 ---
 
 ## 🕊️ Past Supporters
