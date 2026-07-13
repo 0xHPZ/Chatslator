@@ -12,6 +12,8 @@ Thank you to everyone who has supported Chatslator! ❤️
 
 ## 🥇 Gold
 
+- Belinda Toderic
+
 ---
 
 ## 🥈 Silver
@@ -32,4 +34,4 @@ Thank you to everyone who has supported Chatslator! ❤️
 - Jarosław Mikołajczyk | bronze
 ---
 
-*Want to be listed here? Support the project on [Patreon](https://patreon.com/0xHPZ), [PayPal](https://paypal.me/0xHPZ), or [Ko-fi](https://ko-fi.com/0xhpz).*
+*Want to be listed here? Support the project on [PayPal](https://paypal.me/0xHPZ), or [Ko-fi](https://ko-fi.com/0xhpz).*
