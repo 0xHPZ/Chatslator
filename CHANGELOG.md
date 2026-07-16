@@ -4,6 +4,20 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.4.0] - 2026-07-17
+
+### Added
+- Messages that are already in your target language are now remembered, so repeated appearances won't trigger extra request
+- Duplicate message handling: when multiple identical chat messages arrive at the same time, only one translation request is made
+
+### Fixed
+- Fixed an issue caused by recent Google changes that could prevent the extension from working correctly
+
+### Improved
+- Under-the-hood improvements for a faster, smoother, and more reliable experience
+
+---
+
 ## [1.3.6] - 2026-06-23
 
 ### Added
