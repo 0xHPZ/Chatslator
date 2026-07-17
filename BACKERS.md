@@ -23,6 +23,7 @@ Thank you to everyone who has supported Chatslator! ❤️
 ## 🥉 Bronze
 
 - RonaldM
+- PN Vermaas
 
 ---
 
@@ -30,7 +31,6 @@ Thank you to everyone who has supported Chatslator! ❤️
 
 - Wilco Verhaar | bronze
 - Darren Ing | silver
-- PN Vermaas | bronze
 - Jarosław Mikołajczyk | bronze
 ---
 
