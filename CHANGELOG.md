@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.4.1] - 2026-07-17
+
+### Fixed
+- Fixed an issue caused by recent Google changes that could prevent the extension from working correctly
+
+---
+
 ## [1.4.0] - 2026-07-17
 
 ### Added
