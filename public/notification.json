@@ -1,0 +1,6 @@
+{
+    "id": "test-notification-001",
+    "active": true,
+    "variant": "warning",
+    "message": "Translation service is currently under maintenance."
+}
