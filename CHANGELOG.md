@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.5.0] - 2026-07-20
+
+### Added
+- Added a notification panel that appears when you open the extension to keep you informed of important Chatslator updates or known issues. You can dismiss it with a single click, and once dismissed, it won't be shown again.
+
+---
+
 ## [1.4.1] - 2026-07-17
 
 ### Fixed
