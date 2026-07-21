@@ -29,9 +29,9 @@ Thank you to everyone who has supported Chatslator! ❤️
 
 ## 🕊️ Past Supporters
 
-- Wilco Verhaar | bronze
-- Darren Ing | silver
-- Jarosław Mikołajczyk | bronze
+- Wilco V | bronze
+- Darren I | silver
+- Jarosław M | bronze
 ---
 
 *Want to be listed here? Support the project on [PayPal](https://paypal.me/0xHPZ), or [Ko-fi](https://ko-fi.com/0xhpz).*
