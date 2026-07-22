@@ -1,6 +1,6 @@
 {
   "id": "test-notification-001",
-  "active": true,
+  "active": false,
   "variant": "info",
   "message": "Test Notification: This is only a test. No action is required."
 }

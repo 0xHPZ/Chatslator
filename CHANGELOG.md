@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.5.1] - 2026-07-22
+
+### Fixed
+- Fixed an issue that caused Twitch reply usernames to be translated when using the FrankerFaceZ (FFZ) Reply Style.
+
+---
+
 ## [1.5.0] - 2026-07-20
 
 ### Added
