@@ -1,0 +1,168 @@
+{
+    "extensionDescription": "YouTube、Twitch、Kickなどの人気ストリーミングプラットフォームで、ライブチャットのメッセージをリアルタイムに翻訳します。",
+    "common": {
+        "search": "検索",
+        "noResults": "項目が見つかりません。",
+        "detectLanguage": "言語を検出",
+        "from": "翻訳元",
+        "to": "翻訳先",
+        "close": "閉じる",
+        "settings": "設定",
+        "supportDevelopment": "開発を支援"
+    },
+    "popup": {
+        "tagline": "ライブチャット翻訳",
+        "statusOn": "有効",
+        "statusOff": "一時停止",
+        "powerOn": "翻訳をオンにする",
+        "powerOff": "翻訳をオフにする",
+        "support": "サポート",
+        "tip": "投げ銭",
+        "dismissNotification": "通知を閉じる",
+        "unsupportedTitle": "このページはサポートされていません",
+        "unsupportedBody": "ChatslatorはYouTube、Twitch、Kickで動作します。",
+        "supportCard": {
+            "title": "開発を支援する",
+            "body": "空いた時間に開発・メンテナンスをしています。もしお役に立てているなら、今後も開発を続けられるよう、少額のご支援をご検討いただけると嬉しいです。",
+            "paypal": "PayPalで寄付",
+            "kofi": "コーヒーを一杯おごる"
+        }
+    },
+    "nav": {
+        "pageTitle": "Chatslator - 拡張機能の設定",
+        "section": "設定",
+        "tagline": "ライブ配信チャット翻訳",
+        "settings": "設定",
+        "settingsHint": "プラットフォームごとの設定",
+        "supporters": "支援者",
+        "supportersHint": "この活動を支える人々",
+        "changelog": "変更履歴",
+        "changelogHint": "新着情報",
+        "feedback": "フィードバックを送る",
+        "copyEmail": "メールアドレスをコピー",
+        "madeWith": "フィリピンから❤️を込めて"
+    },
+    "settings": {
+        "eyebrow": "設定",
+        "title": "Chatslatorの設定",
+        "description": "拡張機能のすべての設定をここで管理できます。すべてのプラットフォームで同じ設定を使うことも、YouTube、Twitch、Kickごとに個別に設定することもできます。",
+        "interface": {
+            "title": "インターフェース言語",
+            "description": "Chatslatorの画面で使用する言語です。チャットの翻訳先言語は以下で設定します。",
+            "label": "言語",
+            "auto": "ブラウザの言語に合わせる",
+            "autoHint": "ブラウザは$1に設定されています。",
+            "contributeHint": "あなたの言語がない、または翻訳ミスを見つけましたか？",
+            "contribute": "翻訳に協力する"
+        },
+        "sync": {
+            "title": "プラットフォーム間で設定を同期",
+            "on": "YouTube、Twitch、Kickで1つの設定を共有します。",
+            "off": "各プラットフォームを個別に設定します。これをオンにすると、$1の設定が他の2つにもコピーされます。"
+        },
+        "platformOn": "翻訳オン",
+        "platformOff": "翻訳オフ",
+        "translation": {
+            "title": "翻訳",
+            "descriptionAll": "すべてのプラットフォームでChatslatorが行う動作を設定します。",
+            "descriptionOne": "$1でChatslatorが行う動作を設定します。"
+        },
+        "enable": {
+            "title": "$1のチャットを翻訳",
+            "on": "受信したメッセージを到着時に翻訳します。",
+            "off": "このサイトではChatslatorは動作しません。"
+        },
+        "languages": "言語",
+        "sourceTooltip": {
+            "title": "ホバー時に検出した言語を表示",
+            "on": "翻訳にカーソルを合わせると、翻訳元の言語が表示されます。",
+            "off": "翻訳にツールチップは表示されません。"
+        },
+        "display": {
+            "title": "表示モード",
+            "description": "元のメッセージに対して、翻訳をどこに表示するかを設定します。",
+            "suffix": "後ろに追加",
+            "suffixHint": "メッセージの後",
+            "prefix": "前に追加",
+            "prefixHint": "メッセージの前",
+            "replace": "置き換え",
+            "replaceHint": "元のメッセージの代わり",
+            "sampleOriginal": "Hola",
+            "sampleTranslated": "こんにちは"
+        },
+        "color": {
+            "title": "翻訳の色",
+            "description": "各メッセージの翻訳部分に適用されます。",
+            "picker": "カラーピッカーを開く",
+            "hex": "16進数カラー値",
+            "presets": "プリセット",
+            "azure": "アジュール",
+            "iris": "アイリス",
+            "mint": "ミント",
+            "amber": "アンバー",
+            "rose": "ローズ",
+            "fog": "フォグ"
+        },
+        "autosave": "変更は自動的に保存され、新しいチャットメッセージに適用されます。",
+        "resetAll": "すべてリセット",
+        "resetOne": "$1をリセット",
+        "resetAllToast": "すべてのプラットフォームを初期設定にリセットしました",
+        "resetOneToast": "$1をリセットしました"
+    },
+    "changelog": {
+        "eyebrow": "リリース履歴",
+        "title": "変更履歴",
+        "description": "Chatslatorの全バージョンを新しい順に表示します。リポジトリからリアルタイムで取得するため、拡張機能ストアで公開される前の最新リリースも確認できます。",
+        "loading": "変更履歴を読み込み中…",
+        "error": "変更履歴を取得できませんでした。接続を確認して再読み込みしてください。",
+        "installed": "インストール済み",
+        "latest": "最新",
+        "updatePending": "更新待ち",
+        "updatePendingHint": "ストアで新しいバージョンが承認されると、ブラウザが自動的に更新をインストールします。お待ちいただきありがとうございます！",
+        "groups": {
+            "added": "追加",
+            "fixed": "修正",
+            "improved": "改善",
+            "notes": "注記",
+            "misc": "その他",
+            "changed": "変更",
+            "removed": "削除"
+        }
+    },
+    "supporters": {
+        "eyebrow": "感謝を込めて",
+        "title": "支援者",
+        "description": "Chatslatorは無料で、1人で開発しています。以下の皆さんのご支援が継続的な開発を支え、このプロジェクトを存続させています。ご支援ありがとうございます。",
+        "loading": "支援者を読み込み中…",
+        "error": "支援者一覧を取得できませんでした。接続を確認して再読み込みしてください。",
+        "tiers": {
+            "diamond": "ダイヤモンド",
+            "gold": "ゴールド",
+            "silver": "シルバー",
+            "bronze": "ブロンズ",
+            "past": "過去の支援者"
+        },
+        "tierOpen": "このランクは空いています。次はあなたかもしれません。",
+        "noPast": "過去の支援者はいません。",
+        "formerSupporter": "元$1支援者",
+        "emptyTitle": "最初の支援者になりませんか？",
+        "emptyBody": "ここにあなたの名前が載るかもしれません。ご支援によって、拡張機能の更新とサーバーの運営が続けられます。",
+        "ctaTitle": "ここに名前を載せませんか？",
+        "ctaNone": "すべてのご支援は開発に直接活用されます。",
+        "ctaJoin": {
+            "1": "Chatslatorをみんなが無料で使えるよう支えている1人に加わりましょう。",
+            "n": "Chatslatorをみんなが無料で使えるよう支えている$1人に加わりましょう。"
+        }
+    },
+    "support": {
+        "title": "Chatslatorを支援する",
+        "body": "Chatslatorをご利用いただきありがとうございます。配信をより楽しみやすくするお役に立てているなら、継続的な開発を支援し、このプロジェクトを存続させるためにご協力をご検討ください。",
+        "paypal": "PayPal",
+        "paypalNote": "1回限りの投げ銭",
+        "kofi": "Ko-fi",
+        "kofiNote": "1回または毎月"
+    },
+    "content": {
+        "translatedFrom": "$1から翻訳"
+    }
+}

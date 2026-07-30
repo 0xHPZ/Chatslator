@@ -1,0 +1,168 @@
+{
+    "extensionDescription": "Nagsasalin ng mga live chat message nang real-time sa mga sikat na streaming platform tulad ng YouTube, Twitch, at Kick.",
+    "common": {
+        "search": "Maghanap",
+        "noResults": "Walang nahanap na item.",
+        "detectLanguage": "Tukuyin ang Wika",
+        "from": "Mula sa",
+        "to": "Patungo sa",
+        "close": "Isara",
+        "settings": "Mga Setting",
+        "supportDevelopment": "Suportahan ang development"
+    },
+    "popup": {
+        "tagline": "Pagsasalin ng live chat",
+        "statusOn": "Aktibo",
+        "statusOff": "Naka-pause",
+        "powerOn": "I-on ang pagsasalin",
+        "powerOff": "I-off ang pagsasalin",
+        "support": "Suporta",
+        "tip": "Tip",
+        "dismissNotification": "I-dismiss ang notification",
+        "unsupportedTitle": "Hindi suportado ang page na ito",
+        "unsupportedBody": "Gumagana ang Chatslator sa YouTube, Twitch, at Kick.",
+        "supportCard": {
+            "title": "Suportahan ang development",
+            "body": "Dinedevelop at minemaintain ko ito sa aking libreng oras. Kung nakatulong ito sa iyo, ikatutuwa ko kung magsasaalang-alang kang magbigay ng maliit na suporta upang maipagpatuloy ko ang pag-develop nito.",
+            "paypal": "Mag-donate gamit ang PayPal",
+            "kofi": "Ilibre Mo Ako ng Kape"
+        }
+    },
+    "nav": {
+        "pageTitle": "Chatslator - Mga Setting ng Extension",
+        "section": "Mga Setting",
+        "tagline": "Tagasalin ng livestream chat",
+        "settings": "Mga Setting",
+        "settingsHint": "Lahat, bawat platform",
+        "supporters": "Mga Tagasuporta",
+        "supportersHint": "Ang mga taong nasa likod nito",
+        "changelog": "Changelog",
+        "changelogHint": "Ano ang bago",
+        "feedback": "Magpadala ng feedback",
+        "copyEmail": "Kopyahin ang email address",
+        "madeWith": "Ginawa nang may ❤️ sa Pilipinas"
+    },
+    "settings": {
+        "eyebrow": "Mga Setting",
+        "title": "Mga setting ng Chatslator",
+        "description": "Lahat ng ginagawa ng extension, nasa iisang lugar. Gamitin ang parehong configuration sa bawat platform, o i-customize nang magkahiwalay ang YouTube, Twitch, at Kick.",
+        "interface": {
+            "title": "Wika ng interface",
+            "description": "Ang wika ng sariling screens ng Chatslator. Ang wika kung saan isasalin ang chat ay itinatakda sa ibaba.",
+            "label": "Wika",
+            "auto": "Itugma sa wika ng browser",
+            "autoHint": "Naka-set ang browser mo sa $1.",
+            "contributeHint": "Wala ba ang wika mo, o may nakita kang mali?",
+            "contribute": "Tumulong sa pagsasalin"
+        },
+        "sync": {
+            "title": "I-sync ang settings sa lahat ng platform",
+            "on": "Iisang configuration ang ginagamit ng YouTube, Twitch, at Kick.",
+            "off": "Magkahiwalay na kino-configure ang bawat platform. Kapag in-on ito, kokopyahin ang settings ng $1 sa dalawa pang platform."
+        },
+        "platformOn": "Naka-on ang pagsasalin",
+        "platformOff": "Naka-off ang pagsasalin",
+        "translation": {
+            "title": "Pagsasalin",
+            "descriptionAll": "Ang ginagawa ng Chatslator sa bawat platform.",
+            "descriptionOne": "Ang ginagawa ng Chatslator sa $1."
+        },
+        "enable": {
+            "title": "Isalin ang chat sa $1",
+            "on": "Isinasalin ang mga papasok na message pagdating ng mga ito.",
+            "off": "Hindi nakikialam ang Chatslator sa site na ito."
+        },
+        "languages": "Mga Wika",
+        "sourceTooltip": {
+            "title": "Ipakita ang natukoy na wika kapag nag-hover",
+            "on": "Kapag nag-hover sa isang translation, ipinapakita ang wikang pinagmulan nito.",
+            "off": "Walang tooltip ang mga translation."
+        },
+        "display": {
+            "title": "Display mode",
+            "description": "Kung saan ilalagay ang translation kaugnay ng orihinal na message.",
+            "suffix": "Suffix",
+            "suffixHint": "Pagkatapos ng message",
+            "prefix": "Prefix",
+            "prefixHint": "Bago ang message",
+            "replace": "Palitan",
+            "replaceHint": "Sa halip na ang orihinal",
+            "sampleOriginal": "Hola",
+            "sampleTranslated": "Hello"
+        },
+        "color": {
+            "title": "Kulay ng translation",
+            "description": "Inilalapat sa isinaling bahagi ng bawat message.",
+            "picker": "Buksan ang color picker",
+            "hex": "Hex color value",
+            "presets": "Mga Preset",
+            "azure": "Aserul",
+            "iris": "Iris",
+            "mint": "Mint",
+            "amber": "Amber",
+            "rose": "Rosas",
+            "fog": "Hamog"
+        },
+        "autosave": "Awtomatikong sine-save ang mga pagbabago at inilalapat sa mga bagong chat message.",
+        "resetAll": "I-reset ang lahat",
+        "resetOne": "I-reset ang $1",
+        "resetAllToast": "Na-reset ang lahat ng platform sa default",
+        "resetOneToast": "Na-reset ang $1"
+    },
+    "changelog": {
+        "eyebrow": "Kasaysayan ng release",
+        "title": "Changelog",
+        "description": "Bawat version ng Chatslator, mula pinakabago. Kinukuha nang live mula sa repository, kaya makikita mo ang mga pinakabagong release bago pa maging available ang mga ito sa extension stores.",
+        "loading": "Nilo-load ang changelog…",
+        "error": "Hindi maabot ang changelog. Suriin ang iyong koneksyon at i-reload.",
+        "installed": "Naka-install",
+        "latest": "Pinakabago",
+        "updatePending": "Naghihintay ang update",
+        "updatePendingHint": "Awtomatikong i-install ng iyong browser ang update kapag naaprubahan na ng store ang bagong version. Salamat sa iyong pasensya!",
+        "groups": {
+            "added": "Idinagdag",
+            "fixed": "Inayos",
+            "improved": "Pinahusay",
+            "notes": "Mga Tala",
+            "misc": "Iba pa",
+            "changed": "Binago",
+            "removed": "Inalis"
+        }
+    },
+    "supporters": {
+        "eyebrow": "Pasasalamat",
+        "title": "Mga Tagasuporta",
+        "description": "Libre ang Chatslator at binuo ng isang tao. Ang mga taong nasa ibaba ang tumutulong sa pagpopondo ng patuloy na development nito at nagpapanatili sa proyekto. Salamat sa iyong suporta.",
+        "loading": "Nilo-load ang mga tagasuporta…",
+        "error": "Hindi maabot ang listahan ng mga tagasuporta. Suriin ang iyong koneksyon at i-reload.",
+        "tiers": {
+            "diamond": "Diamond",
+            "gold": "Gold",
+            "silver": "Silver",
+            "bronze": "Bronze",
+            "past": "Mga dating tagasuporta"
+        },
+        "tierOpen": "Bukas ang tier na ito. Puwede ikaw iyon.",
+        "noPast": "Walang nakalistang dating tagasuporta.",
+        "formerSupporter": "Dating tagasuporta na $1",
+        "emptyTitle": "Maging unang tagasuporta",
+        "emptyBody": "Puwedeng mapunta rito ang pangalan mo. Nakakatulong ang suporta para manatiling updated ang extension at gumagana ang mga server.",
+        "ctaTitle": "Gusto mo bang mailista rito?",
+        "ctaNone": "Direktang napupunta sa development ang bawat kontribusyon.",
+        "ctaJoin": {
+            "1": "Sumali sa 1 taong tumutulong panatilihing libre ang Chatslator para sa lahat.",
+            "n": "Sumali sa $1 taong tumutulong panatilihing libre ang Chatslator para sa lahat."
+        }
+    },
+    "support": {
+        "title": "Suportahan ang Chatslator",
+        "body": "Salamat sa paggamit ng Chatslator. Kung nakatulong ito para mas madali mong masundan ang mga stream, pag-isipang suportahan ang patuloy nitong development at tumulong na mapanatiling buhay ang proyekto.",
+        "paypal": "PayPal",
+        "paypalNote": "Isang beses na tip",
+        "kofi": "Ko-fi",
+        "kofiNote": "Isang beses o buwanan"
+    },
+    "content": {
+        "translatedFrom": "Isinalin mula sa $1"
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "extensionDescription": "Translates live chat messages in real-time on popular streaming platforms like YouTube, Twitch, and Kick.",
+    "common": {
+        "search": "Search",
+        "noResults": "No items found.",
+        "detectLanguage": "Detect Language",
+        "from": "From",
+        "to": "To",
+        "close": "Close",
+        "settings": "Settings",
+        "supportDevelopment": "Support development"
+    },
+    "popup": {
+        "tagline": "Live chat translation",
+        "statusOn": "Active",
+        "statusOff": "Paused",
+        "powerOn": "Turn translation on",
+        "powerOff": "Turn translation off",
+        "support": "Support",
+        "tip": "Tip",
+        "dismissNotification": "Dismiss notification",
+        "unsupportedTitle": "This page isn’t supported",
+        "unsupportedBody": "Chatslator works on YouTube, Twitch and Kick.",
+        "supportCard": {
+            "title": "Support the development",
+            "body": "I develop and maintain this in my spare time. If it's been helpful, I'd be grateful if you'd consider supporting its continued development with a small contribution.",
+            "paypal": "Donate via PayPal",
+            "kofi": "Buy me a Coffee"
+        }
+    },
+    "nav": {
+        "pageTitle": "Chatslator - Extension Settings",
+        "section": "Settings",
+        "tagline": "Livestream chat translator",
+        "settings": "Settings",
+        "settingsHint": "Everything, per platform",
+        "supporters": "Supporters",
+        "supportersHint": "The people behind it",
+        "changelog": "Changelog",
+        "changelogHint": "What’s new",
+        "feedback": "Send feedback",
+        "copyEmail": "Copy email address",
+        "madeWith": "Made with ❤️ in the Philippines"
+    },
+    "settings": {
+        "eyebrow": "Settings",
+        "title": "Chatslator settings",
+        "description": "Everything the extension does, in one place. Keep the same configuration across every platform, or customize YouTube, Twitch, and Kick independently.",
+        "interface": {
+            "title": "Interface language",
+            "description": "The language of Chatslator’s own screens. What chat gets translated into is set below.",
+            "label": "Language",
+            "auto": "Match browser language",
+            "autoHint": "Your browser is set to $1.",
+            "contributeHint": "Missing your language, or found a mistake in one?",
+            "contribute": "Help translate"
+        },
+        "sync": {
+            "title": "Sync settings across platforms",
+            "on": "YouTube, Twitch and Kick share one configuration.",
+            "off": "Each platform is configured separately. Turning this on copies $1’s settings to the other two."
+        },
+        "platformOn": "Translation on",
+        "platformOff": "Translation off",
+        "translation": {
+            "title": "Translation",
+            "descriptionAll": "What Chatslator does on every platform.",
+            "descriptionOne": "What Chatslator does on $1."
+        },
+        "enable": {
+            "title": "Translate $1 chat",
+            "on": "Incoming messages are translated as they arrive.",
+            "off": "Chatslator stays out of the way on this site."
+        },
+        "languages": "Languages",
+        "sourceTooltip": {
+            "title": "Show the detected language on hover",
+            "on": "Hovering a translation names the language it came from.",
+            "off": "Translations carry no tooltip."
+        },
+        "display": {
+            "title": "Display mode",
+            "description": "Where the translation goes in relation to the original message.",
+            "suffix": "Suffix",
+            "suffixHint": "After the message",
+            "prefix": "Prefix",
+            "prefixHint": "Before the message",
+            "replace": "Replace",
+            "replaceHint": "Instead of the original",
+            "sampleOriginal": "Hola",
+            "sampleTranslated": "Hello"
+        },
+        "color": {
+            "title": "Translation color",
+            "description": "Applied to the translated portion of every message.",
+            "picker": "Open color picker",
+            "hex": "Hex color value",
+            "presets": "Presets",
+            "azure": "Azure",
+            "iris": "Iris",
+            "mint": "Mint",
+            "amber": "Amber",
+            "rose": "Rose",
+            "fog": "Fog"
+        },
+        "autosave": "Changes save automatically and apply to new chat messages.",
+        "resetAll": "Reset everything",
+        "resetOne": "Reset $1",
+        "resetAllToast": "Every platform reset to defaults",
+        "resetOneToast": "$1 reset"
+    },
+    "changelog": {
+        "eyebrow": "Release history",
+        "title": "Changelog",
+        "description": "Every version of Chatslator, newest first. Retrieved live from the repository, so you can see the latest releases before they're available in the extension stores.",
+        "loading": "Loading changelog…",
+        "error": "Couldn't reach the changelog. Check your connection and reload.",
+        "installed": "Installed",
+        "latest": "Latest",
+        "updatePending": "Update pending",
+        "updatePendingHint": "Your browser installs the update automatically once the store approves the new version. Thanks for your patience!",
+        "groups": {
+            "added": "Added",
+            "fixed": "Fixed",
+            "improved": "Improved",
+            "notes": "Notes",
+            "misc": "Misc",
+            "changed": "Changed",
+            "removed": "Removed"
+        }
+    },
+    "supporters": {
+        "eyebrow": "Hall of thanks",
+        "title": "Supporters",
+        "description": "Chatslator is free and built by one person. The people below help fund its continued development and keep the project alive. Thank you for your support.",
+        "loading": "Loading supporters…",
+        "error": "Couldn't reach the supporters list. Check your connection and reload.",
+        "tiers": {
+            "diamond": "Diamond",
+            "gold": "Gold",
+            "silver": "Silver",
+            "bronze": "Bronze",
+            "past": "Past supporters"
+        },
+        "tierOpen": "This tier is open. It could be you.",
+        "noPast": "No past supporters listed.",
+        "formerSupporter": "Former $1 supporter",
+        "emptyTitle": "Be the first supporter",
+        "emptyBody": "Your name could sit right here. Support keeps the extension updated and the servers answering.",
+        "ctaTitle": "Want to be listed here?",
+        "ctaNone": "Every contribution goes straight back into development.",
+        "ctaJoin": {
+            "1": "Join 1 person keeping Chatslator free for everyone.",
+            "n": "Join $1 people keeping Chatslator free for everyone."
+        }
+    },
+    "support": {
+        "title": "Support Chatslator",
+        "body": "Thanks for using Chatslator. If it's made your streams easier to follow, consider supporting its continued development and helping keep the project alive.",
+        "paypal": "PayPal",
+        "paypalNote": "One-off tip",
+        "kofi": "Ko-fi",
+        "kofiNote": "One-off or monthly"
+    },
+    "content": {
+        "translatedFrom": "Translated from $1"
+    }
+}
