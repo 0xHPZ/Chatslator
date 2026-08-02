@@ -1,0 +1,168 @@
+{
+    "extensionDescription": "Menterjemah mesej sembang langsung dalam masa nyata di platform penstriman popular seperti YouTube, Twitch dan Kick.",
+    "common": {
+        "search": "Cari",
+        "noResults": "Tiada item ditemui.",
+        "detectLanguage": "Kesan bahasa",
+        "from": "Daripada",
+        "to": "Ke",
+        "close": "Tutup",
+        "settings": "Tetapan",
+        "supportDevelopment": "Sokong pembangunan"
+    },
+    "popup": {
+        "tagline": "Terjemahan sembang langsung",
+        "statusOn": "Aktif",
+        "statusOff": "Dijeda",
+        "powerOn": "Hidupkan terjemahan",
+        "powerOff": "Matikan terjemahan",
+        "support": "Sokong",
+        "tip": "Tip",
+        "dismissNotification": "Tutup pemberitahuan",
+        "unsupportedTitle": "Halaman ini tidak disokong",
+        "unsupportedBody": "Chatslator berfungsi di YouTube, Twitch dan Kick.",
+        "supportCard": {
+            "title": "Sokong pembangunan",
+            "body": "Saya membangun dan menyelenggara ini pada masa lapang saya. Jika ia telah membantu anda, saya amat menghargai jika anda sudi mempertimbangkan untuk menyokong pembangunan berterusannya dengan sedikit sumbangan.",
+            "paypal": "Sumbang melalui PayPal",
+            "kofi": "Belanja saya kopi"
+        }
+    },
+    "nav": {
+        "pageTitle": "Chatslator - Tetapan Sambungan",
+        "section": "Tetapan",
+        "tagline": "Penterjemah sembang siaran langsung",
+        "settings": "Tetapan",
+        "settingsHint": "Semua tetapan, mengikut platform",
+        "supporters": "Penyokong",
+        "supportersHint": "Orang di sebaliknya",
+        "changelog": "Log perubahan",
+        "changelogHint": "Apa yang baharu",
+        "feedback": "Hantar maklum balas",
+        "copyEmail": "Salin alamat e-mel",
+        "madeWith": "Dihasilkan dengan ❤️ di Filipina"
+    },
+    "settings": {
+        "eyebrow": "Tetapan",
+        "title": "Tetapan Chatslator",
+        "description": "Semua yang dilakukan oleh sambungan ini, di satu tempat. Gunakan konfigurasi yang sama pada setiap platform, atau sesuaikan YouTube, Twitch dan Kick secara berasingan.",
+        "interface": {
+            "title": "Bahasa antara muka",
+            "description": "Bahasa untuk skrin Chatslator sendiri. Bahasa yang digunakan untuk menterjemah sembang ditetapkan di bawah.",
+            "label": "Bahasa",
+            "auto": "Ikut bahasa penyemak imbas",
+            "autoHint": "Penyemak imbas anda ditetapkan kepada $1.",
+            "contributeHint": "Bahasa anda tiada, atau anda menemui kesilapan dalam salah satu terjemahan?",
+            "contribute": "Bantu menterjemah"
+        },
+        "sync": {
+            "title": "Segerakkan tetapan merentas platform",
+            "on": "YouTube, Twitch dan Kick berkongsi satu konfigurasi.",
+            "off": "Setiap platform dikonfigurasikan secara berasingan. Menghidupkan ini akan menyalin tetapan $1 ke dua platform yang lain."
+        },
+        "platformOn": "Terjemahan dihidupkan",
+        "platformOff": "Terjemahan dimatikan",
+        "translation": {
+            "title": "Terjemahan",
+            "descriptionAll": "Apa yang dilakukan oleh Chatslator pada setiap platform.",
+            "descriptionOne": "Apa yang dilakukan oleh Chatslator pada $1."
+        },
+        "enable": {
+            "title": "Terjemah sembang $1",
+            "on": "Mesej masuk diterjemahkan sebaik sahaja diterima.",
+            "off": "Chatslator tidak mengganggu anda di laman ini."
+        },
+        "languages": "Bahasa",
+        "sourceTooltip": {
+            "title": "Tunjukkan bahasa yang dikesan apabila diarahkan",
+            "on": "Apabila mengarahkan kursor pada terjemahan, bahasa asalnya akan dipaparkan.",
+            "off": "Terjemahan tidak mempunyai petua alat."
+        },
+        "display": {
+            "title": "Mod paparan",
+            "description": "Kedudukan terjemahan berbanding dengan mesej asal.",
+            "suffix": "Akhiran",
+            "suffixHint": "Selepas mesej",
+            "prefix": "Awalan",
+            "prefixHint": "Sebelum mesej",
+            "replace": "Gantikan",
+            "replaceHint": "Menggantikan mesej asal",
+            "sampleOriginal": "Hola",
+            "sampleTranslated": "Hello"
+        },
+        "color": {
+            "title": "Warna terjemahan",
+            "description": "Digunakan pada bahagian terjemahan dalam setiap mesej.",
+            "picker": "Buka pemilih warna",
+            "hex": "Nilai warna heks",
+            "presets": "Pratetap",
+            "azure": "Biru langit",
+            "iris": "Iris",
+            "mint": "Pudina",
+            "amber": "Ambar",
+            "rose": "Ros",
+            "fog": "Kabut"
+        },
+        "autosave": "Perubahan disimpan secara automatik dan digunakan pada mesej sembang baharu.",
+        "resetAll": "Tetapkan semula semua",
+        "resetOne": "Tetapkan semula $1",
+        "resetAllToast": "Semua platform ditetapkan semula kepada lalai",
+        "resetOneToast": "$1 ditetapkan semula"
+    },
+    "changelog": {
+        "eyebrow": "Sejarah keluaran",
+        "title": "Log perubahan",
+        "description": "Setiap versi Chatslator, bermula dengan yang terkini. Diambil secara langsung daripada repositori, jadi anda boleh melihat keluaran terbaharu sebelum tersedia di gedung sambungan.",
+        "loading": "Memuatkan log perubahan…",
+        "error": "Tidak dapat mengakses log perubahan. Semak sambungan anda dan muat semula.",
+        "installed": "Dipasang",
+        "latest": "Terkini",
+        "updatePending": "Kemas kini menunggu",
+        "updatePendingHint": "Penyemak imbas anda akan memasang kemas kini secara automatik setelah gedung meluluskan versi baharu. Terima kasih atas kesabaran anda!",
+        "groups": {
+            "added": "Ditambah",
+            "fixed": "Dibaiki",
+            "improved": "Dipertingkatkan",
+            "notes": "Nota",
+            "misc": "Lain-lain",
+            "changed": "Diubah",
+            "removed": "Dibuang"
+        }
+    },
+    "supporters": {
+        "eyebrow": "Ruang penghargaan",
+        "title": "Penyokong",
+        "description": "Chatslator adalah percuma dan dibangunkan oleh seorang sahaja. Mereka yang disenaraikan di bawah membantu membiayai pembangunan berterusannya dan memastikan projek ini terus hidup. Terima kasih atas sokongan anda.",
+        "loading": "Memuatkan senarai penyokong…",
+        "error": "Tidak dapat mengakses senarai penyokong. Semak sambungan anda dan muat semula.",
+        "tiers": {
+            "diamond": "Berlian",
+            "gold": "Emas",
+            "silver": "Perak",
+            "bronze": "Gangsa",
+            "past": "Bekas penyokong"
+        },
+        "tierOpen": "Tahap ini masih terbuka. Mungkin anda orangnya.",
+        "noPast": "Tiada bekas penyokong disenaraikan.",
+        "formerSupporter": "Bekas penyokong $1",
+        "emptyTitle": "Jadilah penyokong pertama",
+        "emptyBody": "Nama anda boleh terpampang di sini. Sokongan anda membantu memastikan sambungan ini dikemas kini dan pelayan terus beroperasi.",
+        "ctaTitle": "Mahu disenaraikan di sini?",
+        "ctaNone": "Setiap sumbangan disalurkan terus kepada pembangunan.",
+        "ctaJoin": {
+            "1": "Sertai 1 orang yang membantu memastikan Chatslator kekal percuma untuk semua.",
+            "n": "Sertai $1 orang yang membantu memastikan Chatslator kekal percuma untuk semua."
+        }
+    },
+    "support": {
+        "title": "Sokong Chatslator",
+        "body": "Terima kasih kerana menggunakan Chatslator. Jika ia memudahkan anda mengikuti siaran langsung, pertimbangkan untuk menyokong pembangunan berterusannya dan membantu memastikan projek ini terus hidup.",
+        "paypal": "PayPal",
+        "paypalNote": "Tip sekali sahaja",
+        "kofi": "Ko-fi",
+        "kofiNote": "Sekali sahaja atau bulanan"
+    },
+    "content": {
+        "translatedFrom": "Diterjemah daripada $1"
+    }
+}

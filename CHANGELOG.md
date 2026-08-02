@@ -4,6 +4,39 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.6.0] - 2026-08-02
+
+### Added
+- Chatslator now speaks your language: pick its own display language in Settings, in English, Japanese, Filipino or Malay, with a guide there for anyone who would like to help translate it into theirs
+- Each site can now have its own colour, position, languages and on/off state. "Sync across sites" is on by default and keeps all three the same
+- You can now turn Chatslator off for just one site
+- New option to show where a message came from when you hover a translation
+- From and To languages can now be set in Settings, not just in the popup
+- Six ready-made translation colours, and a button to restore the original settings
+- Languages now show their own name too, like "Japanese / 日本語", and you can search by either name or by code
+
+### Changed
+- Redesigned popup, with an animated header that reacts to your mouse and takes on the colour of the site you're watching
+- Redesigned settings page: everything in one place, with a preview of how your translations will look
+- Settings now save as soon as you change them, so the "Save settings" button is gone
+- Your existing settings carry over, and are applied to all three sites
+
+### Fixed
+- Kick translations no longer go missing when 7TV is installed
+- Messages already in the language you're translating to are now left alone
+- The same message appearing twice at once no longer picks up two translations
+- A translation that gets stuck no longer holds up the message it belongs to
+- Twitch chat no longer jumps to the bottom while you have it paused when using FrankerFaceZ
+- Translations show up reliably in YouTube live chat, including the pop-out window
+- Vietnamese was misspelled as "Vietlabelse" in the language list
+
+### Improved
+- Rebuilt on shared foundations across YouTube, Twitch and Kick, so all three behave the same way
+- Translations recover better when the translation service is having trouble
+- Under-the-hood improvements for a faster, smoother, and more reliable experience
+
+---
+
 ## [1.5.1] - 2026-07-22
 
 ### Fixed
