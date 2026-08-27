@@ -22,12 +22,11 @@ Thank you to everyone who has supported Chatslator! ❤️
 
 ## 🥉 Bronze
 
-- PN Vermaas
-
 ---
 
 ## 🕊️ Past Supporters
 
+- PN Vermaas | bronze
 - RonaldM | bronze
 - Wilco V | bronze
 - Darren I | silver

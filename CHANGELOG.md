@@ -4,7 +4,14 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
-## [1.6.0] - 2026-08-02
+## [1.6.1] - 2026-08-27
+
+### Added
+- New "More extensions" page in Settings, with my other extensions
+
+---
+
+## [1.6.0] - 2026-08-01
 
 ### Added
 - Chatslator now speaks your language: pick its own display language in Settings, in English, Japanese, Filipino or Malay, with a guide there for anyone who would like to help translate it into theirs
