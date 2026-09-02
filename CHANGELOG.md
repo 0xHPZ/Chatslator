@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.6.2] - 2026-09-3
+
+### Added
+- New "Troubleshooting" page in Settings
+
+---
+
 ## [1.6.1] - 2026-08-27
 
 ### Added
