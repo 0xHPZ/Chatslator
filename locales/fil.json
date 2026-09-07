@@ -38,6 +38,8 @@
         "supportersHint": "Ang mga taong nasa likod nito",
         "changelog": "Changelog",
         "changelogHint": "Ano ang bago",
+        "extensions": "Iba pang extension",
+        "extensionsHint": "Mula sa parehong developer",
         "feedback": "Magpadala ng feedback",
         "copyEmail": "Kopyahin ang email address",
         "madeWith": "Ginawa nang may ❤️ sa Pilipinas"
@@ -73,6 +75,13 @@
             "off": "Hindi nakikialam ang Chatslator sa site na ito."
         },
         "languages": "Mga Wika",
+        "excludedLanguages": {
+            "label": "Mga hindi kasamang wika",
+            "add": "Magdagdag ng wika…",
+            "description": "Ang mga mensaheng natukoy sa mga wikang ito ay mananatili sa orihinal na anyo sa halip na ipakita ang salin.",
+            "note": "Note: Ang pagtukoy ng wika ay hindi 100% maaasahan para sa short phrases o iisang salita, kaya maaaring may ilang mensahe na maisalin pa rin.",
+            "remove": "Alisin ang $1 sa mga hindi kasamang wika"
+        },
         "sourceTooltip": {
             "title": "Ipakita ang natukoy na wika kapag nag-hover",
             "on": "Kapag nag-hover sa isang translation, ipinapakita ang wikang pinagmulan nito.",
@@ -127,6 +136,18 @@
             "misc": "Iba pa",
             "changed": "Binago",
             "removed": "Inalis"
+        }
+    },
+    "extensions": {
+        "eyebrow": "Mula sa parehong developer",
+        "title": "Iba pang extension",
+        "description": "Ilan pa sa mga ginawa ko. Bawat isa ay nilulutas ang isang maliit na problema, tulad ng Chatslator.",
+        "linkLabel": "$1: $2",
+        "chromeStore": "Chrome Web Store",
+        "firefoxStore": "Firefox Add-ons",
+        "website": "Bisitahin ang Website",
+        "subdeck": {
+            "tagline": "Ayusin ang iyong mga YouTube subscription sa mga folder, at i-browse ang kanilang mga upload sa custom feed o multi-column deck."
         }
     },
     "supporters": {

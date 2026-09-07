@@ -38,6 +38,8 @@
         "supportersHint": "この活動を支える人々",
         "changelog": "変更履歴",
         "changelogHint": "新着情報",
+        "extensions": "他の拡張機能",
+        "extensionsHint": "同じ開発者から",
         "feedback": "フィードバックを送る",
         "copyEmail": "メールアドレスをコピー",
         "madeWith": "フィリピンから❤️を込めて"
@@ -73,6 +75,13 @@
             "off": "このサイトではChatslatorは動作しません。"
         },
         "languages": "言語",
+        "excludedLanguages": {
+            "label": "除外する言語",
+            "add": "言語を追加…",
+            "description": "これらの言語で検出されたメッセージは、翻訳を表示せず元の形式のまま保持されます。",
+            "note": "注: 短いフレーズや単語1つだけの場合、言語検出の精度は100%ではないため、一部のメッセージが翻訳される場合があります。",
+            "remove": "除外する言語から$1を削除"
+        },
         "sourceTooltip": {
             "title": "ホバー時に検出した言語を表示",
             "on": "翻訳にカーソルを合わせると、翻訳元の言語が表示されます。",
@@ -127,6 +136,18 @@
             "misc": "その他",
             "changed": "変更",
             "removed": "削除"
+        }
+    },
+    "extensions": {
+        "eyebrow": "同じ開発者による",
+        "title": "その他の拡張機能",
+        "description": "ほかにもいくつかのものを作っています。Chatslatorと同じように、それぞれが小さな問題を一つ解決します。",
+        "linkLabel": "$1: $2",
+        "chromeStore": "Chrome ウェブストア",
+        "firefoxStore": "Firefox Add-ons",
+        "website": "ウェブサイトを見る",
+        "subdeck": {
+            "tagline": "YouTube のチャンネル登録をフォルダで整理し、カスタムフィードや複数列のデッキで動画を閲覧できます。"
         }
     },
     "supporters": {

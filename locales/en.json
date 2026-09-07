@@ -36,8 +36,12 @@
         "settingsHint": "Everything, per platform",
         "supporters": "Supporters",
         "supportersHint": "The people behind it",
+        "troubleshooting": "Troubleshooting",
+        "troubleshootingHint": "Common issues & fixes",
         "changelog": "Changelog",
         "changelogHint": "What’s new",
+        "extensions": "More extensions",
+        "extensionsHint": "From the same developer",
         "feedback": "Send feedback",
         "copyEmail": "Copy email address",
         "madeWith": "Made with ❤️ in the Philippines"
@@ -73,6 +77,13 @@
             "off": "Chatslator stays out of the way on this site."
         },
         "languages": "Languages",
+        "excludedLanguages": {
+            "label": "Excluded languages",
+            "add": "Add a language…",
+            "description": "Messages detected in these languages stay in their original form instead of showing a translation.",
+            "note": "Note: Language detection is not 100% reliable for short phrases or single words, so some messages may still be translated.",
+            "remove": "Remove $1 from excluded languages"
+        },
         "sourceTooltip": {
             "title": "Show the detected language on hover",
             "on": "Hovering a translation names the language it came from.",
@@ -129,6 +140,18 @@
             "removed": "Removed"
         }
     },
+    "extensions": {
+        "eyebrow": "From the same developer",
+        "title": "More extensions",
+        "description": "A few more things I've built. Each one solves one small problem, same as Chatslator.",
+        "linkLabel": "$1: $2",
+        "chromeStore": "Chrome Web Store",
+        "firefoxStore": "Firefox Add-ons",
+        "website": "Visit Website",
+        "subdeck": {
+            "tagline": "Organize your YouTube subscriptions into folders, and browse their uploads in a custom feed or multi-column deck."
+        }
+    },
     "supporters": {
         "eyebrow": "Hall of thanks",
         "title": "Supporters",
@@ -153,6 +176,13 @@
             "1": "Join 1 person keeping Chatslator free for everyone.",
             "n": "Join $1 people keeping Chatslator free for everyone."
         }
+    },
+    "troubleshooting": {
+        "eyebrow": "Help center",
+        "title": "Troubleshooting",
+        "description": "Answers to the problems people run into most, retrieved live from the repository. If your issue isn't here, reach out and we'll add it.",
+        "loading": "Loading troubleshooting guide…",
+        "error": "Couldn't reach the troubleshooting guide. Check your connection and reload."
     },
     "support": {
         "title": "Support Chatslator",

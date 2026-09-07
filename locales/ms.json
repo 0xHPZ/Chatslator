@@ -38,6 +38,8 @@
         "supportersHint": "Orang di sebaliknya",
         "changelog": "Log perubahan",
         "changelogHint": "Apa yang baharu",
+        "extensions": "Sambungan lain",
+        "extensionsHint": "Daripada pembangun yang sama",
         "feedback": "Hantar maklum balas",
         "copyEmail": "Salin alamat e-mel",
         "madeWith": "Dihasilkan dengan ❤️ di Filipina"
@@ -73,6 +75,13 @@
             "off": "Chatslator tidak mengganggu anda di laman ini."
         },
         "languages": "Bahasa",
+        "excludedLanguages": {
+            "label": "Bahasa yang dikecualikan",
+            "add": "Tambah bahasa…",
+            "description": "Mesej yang dikesan dalam bahasa-bahasa ini akan kekal dalam bentuk asalnya dan bukannya memaparkan terjemahan.",
+            "note": "Nota: Pengesanan bahasa tidak 100% tepat untuk frasa pendek atau perkataan tunggal, jadi sesetengah mesej mungkin masih diterjemahkan.",
+            "remove": "Alih keluar $1 daripada bahasa yang dikecualikan"
+        },
         "sourceTooltip": {
             "title": "Tunjukkan bahasa yang dikesan apabila diarahkan",
             "on": "Apabila mengarahkan kursor pada terjemahan, bahasa asalnya akan dipaparkan.",
@@ -127,6 +136,18 @@
             "misc": "Lain-lain",
             "changed": "Diubah",
             "removed": "Dibuang"
+        }
+    },
+    "extensions": {
+        "eyebrow": "Daripada pembangun yang sama",
+        "title": "Sambungan lain",
+        "description": "Beberapa lagi perkara yang saya bina. Setiap satu menyelesaikan satu masalah kecil, sama seperti Chatslator.",
+        "linkLabel": "$1: $2",
+        "chromeStore": "Chrome Web Store",
+        "firefoxStore": "Firefox Add-ons",
+        "website": "Lawati Laman Web",
+        "subdeck": {
+            "tagline": "Susun langganan YouTube anda ke dalam folder, dan semak imbas muat naiknya dalam suapan tersuai atau dek berbilang lajur."
         }
     },
     "supporters": {
