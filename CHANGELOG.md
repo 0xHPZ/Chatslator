@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.7.0] - 2026-09-07
+
+### Added
+- Added an Excluded Languages setting. Messages detected in a selected language now stay in their original form instead of displaying a translation.
+
+---
+
 ## [1.6.2] - 2026-09-3
 
 ### Added
