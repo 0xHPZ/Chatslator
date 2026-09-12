@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.7.1] - 2026-09-12
+
+### Fixed
+- Twitch popout chat translation issue
+
+---
+
 ## [1.7.0] - 2026-09-07
 
 ### Added
@@ -11,7 +18,7 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
-## [1.6.2] - 2026-09-3
+## [1.6.2] - 2026-09-03
 
 ### Added
 - New "Troubleshooting" page in Settings
