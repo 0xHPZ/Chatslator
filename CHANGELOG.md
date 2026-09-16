@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.7.2] - 2026-09-17
+
+### Fixed
+- Translation issues
+
+---
+
 ## [1.7.1] - 2026-09-12
 
 ### Fixed
