@@ -1,0 +1,198 @@
+{
+    "extensionDescription": "Tłumaczy wiadomości z czatu na żywo w czasie rzeczywistym na popularnych platformach streamingowych, takich jak YouTube, Twitch i Kick.",
+    "common": {
+        "search": "Szukaj",
+        "noResults": "Nie znaleziono żadnych wyników.",
+        "detectLanguage": "Wykryj język",
+        "from": "Z",
+        "to": "Na",
+        "close": "Zamknij",
+        "settings": "Ustawienia",
+        "supportDevelopment": "Wspieraj rozwój"
+    },
+    "popup": {
+        "tagline": "Tłumaczenie czatu na żywo",
+        "statusOn": "Aktywne",
+        "statusOff": "Wstrzymane",
+        "powerOn": "Włącz tłumaczenie",
+        "powerOff": "Wyłącz tłumaczenie",
+        "support": "Wsparcie",
+        "tip": "Porada",
+        "dismissNotification": "Zamknij powiadomienie",
+        "unsupportedTitle": "Ta strona nie jest obsługiwana",
+        "unsupportedBody": "Chatslator działa na YouTube, Twitchu i Kicku.",
+        "supportCard": {
+            "title": "Wesprzyj rozwój",
+            "body": "Tworzę i utrzymuję to narzędzie w wolnym czasie. Jeśli okazało się pomocne, byłbym wdzięczny, gdybyś rozważył wsparcie dalszego rozwoju poprzez niewielką darowiznę.",
+            "paypal": "Przekaż darowiznę przez PayPal",
+            "kofi": "Kup mi kawę"
+        }
+    },
+    "nav": {
+        "pageTitle": "Chatslator – Ustawienia rozszerzenia",
+        "section": "Ustawienia",
+        "tagline": "Tłumacz czatu na żywo",
+        "settings": "Ustawienia",
+        "settingsHint": "Wszystko, według platformy",
+        "supporters": "Osoby wspierające",
+        "supportersHint": "Osoby stojące za tym projektem",
+        "troubleshooting": "Rozwiązywanie problemów",
+        "troubleshootingHint": "Typowe problemy i sposoby ich rozwiązywania",
+        "changelog": "Lista zmian",
+        "changelogHint": "Co nowego",
+        "extensions": "Więcej rozszerzeń",
+        "extensionsHint": "Od tego samego twórcy",
+        "feedback": "Wyślij opinię",
+        "copyEmail": "Skopiuj adres e-mail",
+        "madeWith": "Stworzony z ❤ na Filipinach"
+    },
+    "settings": {
+        "eyebrow": "Ustawienia",
+        "title": "Ustawienia Chatslatora",
+        "description": "Wszystkie funkcje rozszerzenia w jednym miejscu. Zachowaj tę samą konfigurację na wszystkich platformach lub dostosuj YouTube, Twitch i Kick niezależnie.",
+        "interface": {
+            "title": "Język interfejsu",
+            "description": "Język ekranów samego Chatslatora. Język, na który tłumaczony jest czat, ustawia się poniżej.",
+            "label": "Język",
+            "auto": "Dopasuj do języka przeglądarki",
+            "autoHint": "Twoja przeglądarka jest ustawiona na $1.",
+            "contributeHint": "Brakuje Twojego języka lub znalazłeś błąd w jednym z nich?",
+            "contribute": "Pomóż w tłumaczeniu"
+        },
+        "sync": {
+            "title": "Synchronizacja ustawień między platformami",
+            "on": "YouTube, Twitch i Kick korzystają z jednej wspólnej konfiguracji.",
+            "off": "Każda platforma jest konfigurowana osobno. Włączenie tej opcji powoduje skopiowanie ustawień z platformy $1 na pozostałe dwie."
+        },
+        "platformOn": "Tłumaczenie włączone",
+        "platformOff": "Tłumaczenie wyłączone",
+        "translation": {
+            "title": "Tłumaczenie",
+            "descriptionAll": "Jak działa Chatslator na każdej platformie.",
+            "descriptionOne": "Jak działa Chatslator na $1."
+        },
+        "enable": {
+            "title": "Tłumaczenie czatu $1",
+            "on": "Przychodzące wiadomości są tłumaczone w miarę ich pojawiania się.",
+            "off": "Na tej stronie Chatslator nie ingeruje w działanie serwisu."
+        },
+        "languages": "Languages",
+        "excludedLanguages": {
+            "label": "Wykluczone języki",
+            "add": "Dodaj język…",
+            "description": "Komunikaty wykryte w tych językach pozostają w oryginalnej postaci zamiast wyświetlać tłumaczenie.",
+            "note": "Uwaga: rozpoznawanie języka nie jest w 100% niezawodne w przypadku krótkich fraz lub pojedynczych słów, więc niektóre komunikaty mogą nadal być tłumaczone.",
+            "remove": "Usuń $1 z listy wykluczonych języków"
+        },
+        "sourceTooltip": {
+            "title": "Pokaż wykryty język po najechaniu kursorem",
+            "on": "Po najechaniu kursorem na tłumaczenie wyświetla się nazwa języka, z którego pochodzi.",
+            "off": "Tłumaczenia nie zawierają podpowiedzi."
+        },
+        "display": {
+            "title": "Tryb wyświetlania",
+            "description": "Miejsce umieszczenia tłumaczenia względem oryginalnej wiadomości.",
+            "suffix": "Sufiks",
+            "suffixHint": "Po wiadomości",
+            "prefix": "Prefiks",
+            "prefixHint": "Przed wiadomością",
+            "replace": "Zastąp",
+            "replaceHint": "Zamiast oryginału",
+            "sampleOriginal": "Hola",
+            "sampleTranslated": "Cześć"
+        },
+        "color": {
+            "title": "Kolor tłumaczenia",
+            "description": "Stosowany do przetłumaczonej części każdej wiadomości.",
+            "picker": "Otwórz wybór kolorów",
+            "hex": "Wartość koloru w systemie szesnastkowym",
+            "presets": "Ustawienia wstępne",
+            "azure": "Lazurowy",
+            "iris": "Irysowy",
+            "mint": "Miętowy",
+            "amber": "Bursztynowy",
+            "rose": "Różany",
+            "fog": "Mgły"
+        },
+        "autosave": "Zmiany są zapisywane automatycznie i mają zastosowanie do nowych wiadomości na czacie.",
+        "resetAll": "Zresetuj wszystko",
+        "resetOne": "Zresetuj $1",
+        "resetAllToast": "Zresetuj wszystkie platformy do ustawień domyślnych",
+        "resetOneToast": "Zresetuj $1"
+    },
+    "changelog": {
+        "eyebrow": "Historia wydań",
+        "title": "Lista zmian",
+        "description": "Wszystkie wersje Chatslatora, od najnowszej. Pobierane na żywo z repozytorium, dzięki czemu możesz zobaczyć najnowsze wydania, zanim będą dostępne w sklepach z rozszerzeniami.",
+        "loading": "Wczytywanie listy zmian…",
+        "error": "Nie udało się uzyskać dostępu do listy zmian. Sprawdź połączenie i odśwież stronę.",
+        "installed": "Zainstalowane",
+        "latest": "Najnowsza",
+        "updatePending": "Oczekuje na aktualizację",
+        "updatePendingHint": "Twoja przeglądarka zainstaluje aktualizację automatycznie, gdy sklep zatwierdzi nową wersję. Dziękujemy za cierpliwość!",
+        "groups": {
+            "added": "Dodano",
+            "fixed": "Naprawiono",
+            "improved": "Ulepszono",
+            "notes": "Uwagi",
+            "misc": "Różne",
+            "changed": "Zmieniono",
+            "removed": "Usunięto"
+        }
+    },
+    "extensions": {
+        "eyebrow": "Od tego samego twórcy",
+        "title": "Więcej rozszerzeń",
+        "description": "Kilka innych rzeczy, które stworzyłem. Każda z nich rozwiązuje jeden mały problem, tak samo jak Chatslator.",
+        "linkLabel": "$1: $2",
+        "chromeStore": "Chrome Web Store",
+        "firefoxStore": "Dodatki do Firefoksa",
+        "website": "Odwiedź stronę internetową",
+        "subdeck": {
+            "tagline": "Porządkuj swoje subskrypcje na YouTube w folderach i przeglądaj zamieszczane przez nich materiały w niestandardowym kanale lub w układzie wielokolumnowym."
+        }
+    },
+    "supporters": {
+        "eyebrow": "Galeria podziękowań",
+        "title": "Osoby wspierające",
+        "description": "Chatslator jest darmowy i tworzony przez jedną osobę. Osoby wymienione poniżej pomagają sfinansować dalszy rozwój serwisu i utrzymać projekt przy życiu. Dziękujemy za wsparcie.",
+        "loading": "Wczytywanie listy osób wspierających…",
+        "error": "Nie udało się uzyskać dostępu do listy osób wspierających. Sprawdź połączenie i odśwież stronę.",
+        "poziomy": {
+            "diament": "Diament",
+            "złoto": "Złoto",
+            "srebro": "Srebro",
+            "brąz": "Brąz",
+            "poprzedni": "Poprzedni darczyńcy"
+        },
+        "tierOpen": "Ten poziom jest otwarty. To możesz być właśnie Ty.",
+        "noPast": "Brak listy dotychczasowych darczyńców.",
+        "formerSupporter": "Były darczyńca $1",
+        "emptyTitle": "Zostań pierwszym darczyńcą",
+        "emptyBody": "Twoje imię i nazwisko mogłoby znaleźć się właśnie tutaj. Twoje wsparcie pozwala na aktualizację rozszerzenia i utrzymanie serwerów w działaniu.",
+        "ctaTitle": "Chcesz znaleźć się na tej liście?",
+        "ctaNone": "Każda wpłata jest przeznaczana bezpośrednio na rozwój projektu.",
+        "ctaJoin": {
+            "1": "Dołącz do grona osób, dzięki którym Chatslator pozostaje darmowy dla wszystkich.",
+            "n": "Dołącz do $1 osób, dzięki którym Chatslator pozostaje darmowy dla wszystkich."
+        }
+    },
+    "troubleshooting": {
+        "eyebrow": "Centrum pomocy",
+        "title": "Rozwiązywanie problemów",
+        "description": "Odpowiedzi na najczęściej napotykane problemy, pobierane na bieżąco z repozytorium. Jeśli nie ma tu Twojego problemu, skontaktuj się z nami, a dodamy go.",
+        "loading": "Wczytywanie przewodnika po rozwiązywaniu problemów…",
+        "error": "Nie udało się połączyć z przewodnikiem po rozwiązywaniu problemów. Sprawdź połączenie i odśwież stronę."
+    },
+    "support": {
+        "title": "Wesprzyj Chatslator",
+        "body": "Dziękujemy za korzystanie z Chatslatora. Jeśli dzięki niemu łatwiej jest Ci śledzić transmisje, rozważ wsparcie dalszego rozwoju serwisu i pomoc w utrzymaniu projektu.",
+        "paypal": "PayPal",
+        "paypalNote": "Jednorazowa darowizna",
+        "kofi": "Ko-fi",
+        "kofiNote": "Jednorazowa lub miesięczna"
+    },
+    "content": {
+        "translatedFrom": "Przetłumaczono z $1"
+    }
+}
