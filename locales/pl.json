@@ -84,6 +84,21 @@
             "note": "Uwaga: rozpoznawanie języka nie jest w 100% niezawodne w przypadku krótkich fraz lub pojedynczych słów, więc niektóre komunikaty mogą nadal być tłumaczone.",
             "remove": "Usuń $1 z listy wykluczonych języków"
         },
+        "wordExclusions": {
+            "title": "Wykluczanie słów",
+            "description": "Pomiń wiadomości zawierające imiona, emotikony, terminy lub zwroty, których nie chcesz tłumaczyć.",
+            "blocklist": {
+                "label": "Słowa i zwroty",
+                "description": "Jedna pozycja na wiersz. Dopasowuje całe wyrazy lub frazy, bez uwzględniania wielkości liter. Dla większości osób jest to najprostsza opcja.",
+                "example": "Fajnie\nKappa\nnazwa mojego kanału"
+            },
+            "regex": {
+                "label": "Wzorce wyrażeń regularnych (zaawansowane))",
+                "description": "Jedno wyrażenie regularne JavaScript na wiersz. Użyj zapisu /wzorce/flagi dla opcji takich jak dopasowywanie bez uwzględniania wielkości liter.",
+                "example": "\\b(?:Kappa|PogChamp|KEKW)\\b",
+                "help": "Przykłady: \\b(?:Kappa|PogChamp|KEKW)\\b zachowuje standardowe emotikony czatu. Puste wiersze są ignorowane."
+            }
+        },
         "sourceTooltip": {
             "title": "Pokaż wykryty język po najechaniu kursorem",
             "on": "Po najechaniu kursorem na tłumaczenie wyświetla się nazwa języka, z którego pochodzi.",
