@@ -82,6 +82,21 @@
             "note": "Note: Ang pagtukoy ng wika ay hindi 100% maaasahan para sa short phrases o iisang salita, kaya maaaring may ilang mensahe na maisalin pa rin.",
             "remove": "Alisin ang $1 sa mga hindi kasamang wika"
         },
+        "wordExclusions": {
+            "title": "Pagsasabi ng mga Salita",
+            "description": "I-skip ang mga mensaheng naglalaman ng mga pangalan, emote, termino, o parirala na ayaw mong isalin.",
+            "blocklist": {
+                "label": "Mga salita at parirala",
+                "description": "Isang item bawat linya. Tumatugma sa buong salita o parirala, hindi nakadepende sa malaki o maliit na titik (case-insensitive). Ito ang pinakamadaling opsyon para sa nakararami.",
+                "example": "Nice\nKappa\nmy channel name"
+            },
+            "regex": {
+                "label": "Regex patterns (advanced)",
+                "description": "Isang JavaScript regular expression bawat linya. Gumamit ng /pattern/flags para sa mga opsyon tulad ng case-insensitive matching.",
+                "example": "\\b(?:Kappa|PogChamp|KEKW)\\b",
+                "help": "Mga halimbawa: Pinapanatili ng \\b(?:Kappa|PogChamp|KEKW)\\b ang mga karaniwang chat emote. Ang mga blangkong linya ay babalewalain."
+            }
+        },
         "sourceTooltip": {
             "title": "Ipakita ang natukoy na wika kapag nag-hover",
             "on": "Kapag nag-hover sa isang translation, ipinapakita ang wikang pinagmulan nito.",

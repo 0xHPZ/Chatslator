@@ -82,6 +82,21 @@
             "note": "注: 短いフレーズや単語1つだけの場合、言語検出の精度は100%ではないため、一部のメッセージが翻訳される場合があります。",
             "remove": "除外する言語から$1を削除"
         },
+        "wordExclusions": {
+            "title": "単語の除外",
+            "description": "翻訳したくない名前、エモート、用語、またはフレーズを含むメッセージをスキップします。",
+            "blocklist": {
+                "label": "単語とフレーズ",
+                "description": "1行に1項目。大文字・小文字を区別せず、単語またはフレーズ全体に一致します。ほとんどの人にとってこれが最も簡単なオプションです。",
+                "example": "Nice\nKappa\nmy channel name"
+            },
+            "regex": {
+                "label": "正規表現パターン (上級者向け)",
+                "description": "1行に1つのJavaScript正規表現。大文字・小文字を区別しないマッチングなどのオプションには /pattern/flags を使用します。",
+                "example": "\\b(?:Kappa|PogChamp|KEKW)\\b",
+                "help": "例: \\b(?:Kappa|PogChamp|KEKW)\\b は一般的なチャットエモートを保持します。空行は無視されます。"
+            }
+        },
         "sourceTooltip": {
             "title": "ホバー時に検出した言語を表示",
             "on": "翻訳にカーソルを合わせると、翻訳元の言語が表示されます。",
