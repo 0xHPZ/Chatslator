@@ -82,6 +82,21 @@
             "note": "Nota: Pengesanan bahasa tidak 100% tepat untuk frasa pendek atau perkataan tunggal, jadi sesetengah mesej mungkin masih diterjemahkan.",
             "remove": "Alih keluar $1 daripada bahasa yang dikecualikan"
         },
+        "wordExclusions": {
+            "title": "Pengecualian kata",
+            "description": "Langkau mesej yang mengandungi nama, emot, istilah, atau frasa yang anda tidak mahu diterjemahkan.",
+            "blocklist": {
+                "label": "Kata dan frasa",
+                "description": "Satu item setiap baris. Padan dengan keseluruhan kata atau frasa, tanpa mengira huruf besar/kecil. Ini adalah pilihan paling mudah untuk kebanyakan pengguna.",
+                "example": "Nice\nKappa\nmy channel name"
+            },
+            "regex": {
+                "label": "Corak Regex (lanjutan)",
+                "description": "Satu ungkapan biasa JavaScript (regular expression) setiap baris. Gunakan /pattern/flags untuk pilihan seperti padanan tanpa mengira huruf besar/kecil.",
+                "example": "\\b(?:Kappa|PogChamp|KEKW)\\b",
+                "help": "Contoh: \\b(?:Kappa|PogChamp|KEKW)\\b mengekalkan emot sembang biasa. Baris kosong akan diabaikan."
+            }
+        },
         "sourceTooltip": {
             "title": "Tunjukkan bahasa yang dikesan apabila diarahkan",
             "on": "Apabila mengarahkan kursor pada terjemahan, bahasa asalnya akan dipaparkan.",

@@ -84,6 +84,21 @@
             "note": "Note: Language detection is not 100% reliable for short phrases or single words, so some messages may still be translated.",
             "remove": "Remove $1 from excluded languages"
         },
+        "wordExclusions": {
+            "title": "Word exclusion",
+            "description": "Skip messages containing names, emotes, terms, or phrases you do not want translated.",
+            "blocklist": {
+                "label": "Words and phrases",
+                "description": "One item per line. Matches whole words or phrases, case-insensitively. This is the easiest option for most people.",
+                "example": "Nice\nKappa\nmy channel name"
+            },
+            "regex": {
+                "label": "Regex patterns (advanced)",
+                "description": "One JavaScript regular expression per line. Use /pattern/flags for options such as case-insensitive matching.",
+                "example": "\\b(?:Kappa|PogChamp|KEKW)\\b",
+                "help": "Examples: \\b(?:Kappa|PogChamp|KEKW)\\b keeps common chat emotes. Empty lines are ignored."
+            }
+        },
         "sourceTooltip": {
             "title": "Show the detected language on hover",
             "on": "Hovering a translation names the language it came from.",

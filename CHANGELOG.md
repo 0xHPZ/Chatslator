@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.8.0] - 2026-09-22
+
+### Added
+- New Word Exclusion settings for simple words and phrases or advanced regex patterns. Messages that match an exclusion are now skipped before a translation request is sent.
+
+---
+
 ## [1.7.2] - 2026-09-17
 
 ### Fixed
