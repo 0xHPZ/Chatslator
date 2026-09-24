@@ -173,12 +173,12 @@
         "description": "Chatslator jest darmowy i tworzony przez jedną osobę. Osoby wymienione poniżej pomagają sfinansować dalszy rozwój serwisu i utrzymać projekt przy życiu. Dziękujemy za wsparcie.",
         "loading": "Wczytywanie listy osób wspierających…",
         "error": "Nie udało się uzyskać dostępu do listy osób wspierających. Sprawdź połączenie i odśwież stronę.",
-        "poziomy": {
-            "diament": "Diament",
-            "złoto": "Złoto",
-            "srebro": "Srebro",
-            "brąz": "Brąz",
-            "poprzedni": "Poprzedni darczyńcy"
+        "tiers": {
+            "diamond": "Diament",
+            "gold": "Złoto",
+            "silver": "Srebro",
+            "bronze": "Brąz",
+            "past": "Poprzedni darczyńcy"
         },
         "tierOpen": "Ten poziom jest otwarty. To możesz być właśnie Ty.",
         "noPast": "Brak listy dotychczasowych darczyńców.",
