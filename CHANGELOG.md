@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.8.1] - 2026-09-25
+
+### Added
+- Polish (pl) translation support (thanks to @Nmrawe on GitHub!).
+
+---
+
 ## [1.8.0] - 2026-09-22
 
 ### Added

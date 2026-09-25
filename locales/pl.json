@@ -44,7 +44,7 @@
         "extensionsHint": "Od tego samego twórcy",
         "feedback": "Wyślij opinię",
         "copyEmail": "Skopiuj adres e-mail",
-        "madeWith": "Stworzony z ❤ na Filipinach"
+        "madeWith": "Stworzony z ❤️ na Filipinach"
     },
     "settings": {
         "eyebrow": "Ustawienia",
@@ -93,7 +93,7 @@
                 "example": "Fajnie\nKappa\nnazwa mojego kanału"
             },
             "regex": {
-                "label": "Wzorce wyrażeń regularnych (zaawansowane))",
+                "label": "Wzorce wyrażeń regularnych (zaawansowane)",
                 "description": "Jedno wyrażenie regularne JavaScript na wiersz. Użyj zapisu /wzorce/flagi dla opcji takich jak dopasowywanie bez uwzględniania wielkości liter.",
                 "example": "\\b(?:Kappa|PogChamp|KEKW)\\b",
                 "help": "Przykłady: \\b(?:Kappa|PogChamp|KEKW)\\b zachowuje standardowe emotikony czatu. Puste wiersze są ignorowane."
