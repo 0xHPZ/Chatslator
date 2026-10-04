@@ -4,6 +4,13 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.8.2] - 2026-10-05
+
+### Fixed
+- Replace display mode now uses the selected translation color on YouTube, Twitch, and Kick.
+
+---
+
 ## [1.8.1] - 2026-09-25
 
 ### Added
