@@ -76,7 +76,7 @@
             "on": "Przychodzące wiadomości są tłumaczone w miarę ich pojawiania się.",
             "off": "Na tej stronie Chatslator nie ingeruje w działanie serwisu."
         },
-        "languages": "Languages",
+        "languages": "Języki",
         "excludedLanguages": {
             "label": "Wykluczone języki",
             "add": "Dodaj język…",
