@@ -4,6 +4,16 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.8.3] - 2026-10-14
+
+### Changed
+- Excluded Languages now requires Detect Language because Google doesn't report a message's language when a specific source language is selected.
+
+### Fixed
+- Fixed translations showing only the first letter when using a specific source language.
+
+---
+
 ## [1.8.2] - 2026-10-05
 
 ### Fixed
