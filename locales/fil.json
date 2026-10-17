@@ -1,4 +1,12 @@
 {
+    "updates": {
+        "showMore": "Ipakita pa",
+        "title": "Ano'ng bago sa Chatslator $1",
+        "description": "Na-update na ang Chatslator. Narito ang mga bago.",
+        "settingTitle": "Ipakita ang mga bago pagkatapos mag-update",
+        "settingDescription": "Magbukas ng tab na may mga tala kapag na-update ang Chatslator.",
+        "noNotes": "Walang mga tala para sa bersyong ito."
+    },
     "extensionDescription": "Nagsasalin ng mga live chat message nang real-time sa mga sikat na streaming platform tulad ng YouTube, Twitch, at Kick.",
     "common": {
         "search": "Maghanap",
@@ -45,6 +53,7 @@
         "madeWith": "Ginawa nang may ❤️ sa Pilipinas"
     },
     "settings": {
+        "otherPreferences": "Iba pang mga kagustuhan",
         "eyebrow": "Mga Setting",
         "title": "Mga setting ng Chatslator",
         "description": "Lahat ng ginagawa ng extension, nasa iisang lugar. Gamitin ang parehong configuration sa bawat platform, o i-customize nang magkahiwalay ang YouTube, Twitch, at Kick.",
@@ -76,10 +85,11 @@
         },
         "languages": "Mga Wika",
         "excludedLanguages": {
+            "requiresDetection": "Para magamit ang mga hindi kasamang wika, itakda ang $1 sa $2. Kapag pumili ka ng partikular na pinagmulang wika, hindi ibinibigay ng Google ang natukoy na wika ng mensahe, kaya hindi masusuri ng Chatslator ang iyong mga pagbubukod.",
             "label": "Mga hindi kasamang wika",
             "add": "Magdagdag ng wika…",
-            "description": "Ang mga mensaheng natukoy sa mga wikang ito ay mananatili sa orihinal na anyo sa halip na ipakita ang salin.",
-            "note": "Note: Ang pagtukoy ng wika ay hindi 100% maaasahan para sa short phrases o iisang salita, kaya maaaring may ilang mensahe na maisalin pa rin.",
+            "description": "Ang mga mensaheng tinukoy ng Google na nasa isa sa mga wikang ito ay mananatili sa orihinal na anyo.",
+            "note": "Google ang ganap na namamahala sa pagtukoy ng wika; walang direktang kontrol ang Chatslator sa mga resulta. Maaaring mali ang pagkilala sa maiikling parirala at iisang salita, kaya maaaring maisalin pa rin ang ilang hindi kasamang mensahe.",
             "remove": "Alisin ang $1 sa mga hindi kasamang wika"
         },
         "wordExclusions": {

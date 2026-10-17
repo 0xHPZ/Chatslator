@@ -1,4 +1,12 @@
 {
+    "updates": {
+        "showMore": "もっと見る",
+        "title": "Chatslator $1 の新機能",
+        "description": "Chatslatorが更新されました。今回の変更をご紹介します。",
+        "settingTitle": "更新後に変更内容を表示",
+        "settingDescription": "Chatslatorの更新時にリリースノートのタブを開きます。",
+        "noNotes": "このバージョンのリリースノートはありません。"
+    },
     "extensionDescription": "YouTube、Twitch、Kickなどの人気ストリーミングプラットフォームで、ライブチャットのメッセージをリアルタイムに翻訳します。",
     "common": {
         "search": "検索",
@@ -45,6 +53,7 @@
         "madeWith": "フィリピンから❤️を込めて"
     },
     "settings": {
+        "otherPreferences": "その他の設定",
         "eyebrow": "設定",
         "title": "Chatslatorの設定",
         "description": "拡張機能のすべての設定をここで管理できます。すべてのプラットフォームで同じ設定を使うことも、YouTube、Twitch、Kickごとに個別に設定することもできます。",
@@ -76,10 +85,11 @@
         },
         "languages": "言語",
         "excludedLanguages": {
+            "requiresDetection": "言語の除外を使用するには、「$1」を「$2」に設定してください。翻訳元の言語を指定すると、Googleはメッセージの検出言語を返さないため、Chatslatorは除外対象かどうかを判定できません。",
             "label": "除外する言語",
             "add": "言語を追加…",
-            "description": "これらの言語で検出されたメッセージは、翻訳を表示せず元の形式のまま保持されます。",
-            "note": "注: 短いフレーズや単語1つだけの場合、言語検出の精度は100%ではないため、一部のメッセージが翻訳される場合があります。",
+            "description": "Googleがこれらの言語のいずれかと判定したメッセージは、原文のまま表示されます。",
+            "note": "言語の検出はすべてGoogleが行うため、Chatslatorは結果を直接制御できません。短いフレーズや単語は誤判定されることがあり、除外対象のメッセージが翻訳される場合があります。",
             "remove": "除外する言語から$1を削除"
         },
         "wordExclusions": {

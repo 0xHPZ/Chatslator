@@ -1,4 +1,12 @@
 {
+    "updates": {
+        "showMore": "Tunjukkan lagi",
+        "title": "Apa yang baharu dalam Chatslator $1",
+        "description": "Chatslator telah dikemas kini. Berikut ialah perubahan baharu.",
+        "settingTitle": "Tunjukkan perubahan selepas kemas kini",
+        "settingDescription": "Buka tab dengan nota keluaran apabila Chatslator dikemas kini.",
+        "noNotes": "Tiada nota keluaran untuk versi ini."
+    },
     "extensionDescription": "Menterjemah mesej sembang langsung dalam masa nyata di platform penstriman popular seperti YouTube, Twitch dan Kick.",
     "common": {
         "search": "Cari",
@@ -45,6 +53,7 @@
         "madeWith": "Dihasilkan dengan ❤️ di Filipina"
     },
     "settings": {
+        "otherPreferences": "Keutamaan lain",
         "eyebrow": "Tetapan",
         "title": "Tetapan Chatslator",
         "description": "Semua yang dilakukan oleh sambungan ini, di satu tempat. Gunakan konfigurasi yang sama pada setiap platform, atau sesuaikan YouTube, Twitch dan Kick secara berasingan.",
@@ -76,10 +85,11 @@
         },
         "languages": "Bahasa",
         "excludedLanguages": {
+            "requiresDetection": "Untuk menggunakan bahasa yang dikecualikan, tetapkan $1 kepada $2. Apabila anda memilih bahasa sumber tertentu, Google tidak memberikan bahasa mesej yang dikesan, jadi Chatslator tidak dapat menyemak pengecualian anda.",
             "label": "Bahasa yang dikecualikan",
             "add": "Tambah bahasa…",
-            "description": "Mesej yang dikesan dalam bahasa-bahasa ini akan kekal dalam bentuk asalnya dan bukannya memaparkan terjemahan.",
-            "note": "Nota: Pengesanan bahasa tidak 100% tepat untuk frasa pendek atau perkataan tunggal, jadi sesetengah mesej mungkin masih diterjemahkan.",
+            "description": "Mesej yang dikenal pasti oleh Google sebagai salah satu bahasa ini akan kekal dalam bentuk asalnya.",
+            "note": "Google mengendalikan pengesanan bahasa sepenuhnya; Chatslator tidak mempunyai kawalan langsung terhadap hasilnya. Frasa pendek dan perkataan tunggal boleh dikenal pasti secara salah, jadi sesetengah mesej yang dikecualikan mungkin masih diterjemahkan.",
             "remove": "Alih keluar $1 daripada bahasa yang dikecualikan"
         },
         "wordExclusions": {

@@ -1,4 +1,12 @@
 {
+    "updates": {
+        "showMore": "Pokaż więcej",
+        "title": "Co nowego w Chatslator $1",
+        "description": "Chatslator został zaktualizowany. Oto nowości.",
+        "settingTitle": "Pokazuj nowości po aktualizacji",
+        "settingDescription": "Otwórz kartę z listą zmian po aktualizacji Chatslator.",
+        "noNotes": "Brak listy zmian dla tej wersji."
+    },
     "extensionDescription": "Tłumaczy wiadomości z czatu na żywo w czasie rzeczywistym na popularnych platformach streamingowych, takich jak YouTube, Twitch i Kick.",
     "common": {
         "search": "Szukaj",
@@ -47,6 +55,7 @@
         "madeWith": "Stworzony z ❤️ na Filipinach"
     },
     "settings": {
+        "otherPreferences": "Pozostałe preferencje",
         "eyebrow": "Ustawienia",
         "title": "Ustawienia Chatslatora",
         "description": "Wszystkie funkcje rozszerzenia w jednym miejscu. Zachowaj tę samą konfigurację na wszystkich platformach lub dostosuj YouTube, Twitch i Kick niezależnie.",
@@ -78,10 +87,11 @@
         },
         "languages": "Języki",
         "excludedLanguages": {
+            "requiresDetection": "Aby używać wykluczonych języków, ustaw $1 na $2. Gdy wybierzesz konkretny język źródłowy, Google nie podaje wykrytego języka wiadomości, więc Chatslator nie może sprawdzić Twoich wykluczeń.",
             "label": "Wykluczone języki",
             "add": "Dodaj język…",
-            "description": "Komunikaty wykryte w tych językach pozostają w oryginalnej postaci zamiast wyświetlać tłumaczenie.",
-            "note": "Uwaga: rozpoznawanie języka nie jest w 100% niezawodne w przypadku krótkich fraz lub pojedynczych słów, więc niektóre komunikaty mogą nadal być tłumaczone.",
+            "description": "Wiadomości, które Google rozpozna jako napisane w jednym z tych języków, pozostają w oryginalnej postaci.",
+            "note": "Google w pełni odpowiada za rozpoznawanie języka; Chatslator nie ma bezpośredniej kontroli nad wynikami. Krótkie frazy i pojedyncze słowa mogą zostać błędnie rozpoznane, więc niektóre wykluczone wiadomości mogą nadal być tłumaczone.",
             "remove": "Usuń $1 z listy wykluczonych języków"
         },
         "wordExclusions": {

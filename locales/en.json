@@ -1,4 +1,12 @@
 {
+    "updates": {
+        "showMore": "Show more",
+        "title": "What's new in Chatslator $1",
+        "description": "Chatslator has been updated. Here's what's new.",
+        "settingTitle": "Show What's new after updates",
+        "settingDescription": "Open a tab with release notes when Chatslator updates.",
+        "noNotes": "No release notes are available for this version."
+    },
     "extensionDescription": "Translates live chat messages in real-time on popular streaming platforms like YouTube, Twitch, and Kick.",
     "common": {
         "search": "Search",
@@ -47,6 +55,7 @@
         "madeWith": "Made with ❤️ in the Philippines"
     },
     "settings": {
+        "otherPreferences": "Other preferences",
         "eyebrow": "Settings",
         "title": "Chatslator settings",
         "description": "Everything the extension does, in one place. Keep the same configuration across every platform, or customize YouTube, Twitch, and Kick independently.",
@@ -78,10 +87,11 @@
         },
         "languages": "Languages",
         "excludedLanguages": {
+            "requiresDetection": "To use excluded languages, set $1 to $2. When you choose a specific source language, Google doesn't report the message's detected language, so Chatslator can't check your exclusions.",
             "label": "Excluded languages",
             "add": "Add a language…",
-            "description": "Messages detected in these languages stay in their original form instead of showing a translation.",
-            "note": "Note: Language detection is not 100% reliable for short phrases or single words, so some messages may still be translated.",
+            "description": "Messages Google identifies as one of these languages stay in their original form.",
+            "note": "Google handles language detection entirely; Chatslator has no direct control over the results. Short phrases and single words can be misidentified, so some excluded messages may still be translated.",
             "remove": "Remove $1 from excluded languages"
         },
         "wordExclusions": {
