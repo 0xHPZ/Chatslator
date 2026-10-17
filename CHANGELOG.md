@@ -4,6 +4,18 @@ All notable changes to Chatslator will be documented in this file.
 
 ---
 
+## [1.8.4] - 2026-10-17
+
+### Added
+- Arabic interface translation (thanks to Nasy!).
+- Right-to-left layout support for Arabic in the popup and settings.
+
+### Fixed
+- Improved the display of mixed Arabic/English chat translations, including parentheses and spacing.
+- Fixed an untranslated label in the Polish interface (Thanks to Nmrawe).
+
+---
+
 ## [1.8.3] - 2026-10-14
 
 ### Changed
